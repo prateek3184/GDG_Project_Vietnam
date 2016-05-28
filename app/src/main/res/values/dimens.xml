@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="image_button_padding">2dp</dimen>
+    <dimen name="paddingBetweenTextViews">104dp</dimen>
+    <dimen name="paddingBetweenTextButtons">160dp</dimen>
+    <dimen name="paddingBetweenButtonAndTextView">16dp</dimen>
+</resources>

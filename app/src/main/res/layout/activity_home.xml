@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundHome"
+        tools:context="com.example.android.vietnamforindians.Listing_details">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            // First Listing in the list of 5 places to see in Vietnam
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="viewHanoi"
+                android:padding="@dimen/image_button_padding"
+                android:paddingLeft="@dimen/image_button_padding"
+                android:paddingRight="@dimen/image_button_padding"
+                android:paddingTop="@dimen/image_button_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/old_quarter_hanoi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hanoi_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="san-serif-medium"
+                    android:text="@string/hanoi"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBetweenTextViews"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Requires 2 days"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            // Second Listing in the list of 5 places to see in Vietnam
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="viewHaLong"
+                android:padding="@dimen/image_button_padding"
+                android:paddingLeft="@dimen/image_button_padding"
+                android:paddingRight="@dimen/image_button_padding"
+                android:paddingTop="@dimen/image_button_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/halong_bay" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="san-serif-medium"
+                    android:text="@string/halong"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBetweenTextViews"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="Requires 1.5 days"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            // Third Listing in the list of 5 places to see in Vietnam
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="viewPhongNha"
+                android:padding="@dimen/image_button_padding"
+                android:paddingLeft="@dimen/image_button_padding"
+                android:paddingRight="@dimen/image_button_padding"
+                android:paddingTop="@dimen/image_button_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/phong_nha" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="san-serif-medium"
+                    android:text="@string/phongNha"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBetweenTextViews"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="Requires 2 days"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            // Fourth Listing in the list of 5 places to see in Vietnam
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="viewHoiAn"
+                android:padding="@dimen/image_button_padding"
+                android:paddingLeft="@dimen/image_button_padding"
+                android:paddingRight="@dimen/image_button_padding"
+                android:paddingTop="@dimen/image_button_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/hoi_an" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="san-serif-medium"
+                    android:text="@string/hoiAn"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/paddingBetweenTextViews"
+                    android:paddingLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="Requires 2 days"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            // Fifth Listing in the list of 5 places to see in Vietnam
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:onClick="viewChamIsland"
+                android:padding="@dimen/image_button_padding"
+                android:paddingLeft="@dimen/image_button_padding"
+                android:paddingRight="@dimen/image_button_padding"
+                android:paddingTop="@dimen/image_button_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/cham_island" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="12dp"
+
+                    android:fontFamily="san-serif-medium"
+                    android:text="@string/chamIsland"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="88dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="Requires 1 day"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

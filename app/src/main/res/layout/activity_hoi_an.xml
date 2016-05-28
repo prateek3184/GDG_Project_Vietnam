@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        tools:context="com.example.android.vietnamforindians.Listing_details">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundHome"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_view_border"
+                android:scaleType="fitXY"
+                android:src="@drawable/hoi_an" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/text_view_border"
+                android:fontFamily="san-serif-medium"
+                android:text="@string/hoiAn"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="12dp"
+                android:ellipsize="none"
+                android:fontFamily="san-serif-medium"
+                android:paddingLeft="8dp"
+                android:scrollHorizontally="false"
+                android:text="@string/hoiAnIntro"
+                android:textColor="@color/innerTextColor"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ellipsize="none"
+                android:fontFamily="san-serif-medium"
+                android:paddingLeft="8dp"
+                android:scrollHorizontally="false"
+                android:text="@string/hoiAnDescription"
+                android:textColor="@color/innerTextColor"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/paddingBetweenButtonAndTextView">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/borderColor"
+                    android:maxHeight="8dp"
+                    android:maxWidth="12dp"
+                    android:onClick="beforeHoiAn"
+                    android:text="@string/previousButton" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="@dimen/paddingBetweenTextButtons"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:background="@color/borderColor"
+                    android:maxHeight="8dp"
+                    android:maxWidth="12dp"
+                    android:onClick="nextAfterHoiAn"
+                    android:text="@string/nextButton" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

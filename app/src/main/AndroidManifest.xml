@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.vietnamforindians">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/splash_flag"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="5 places to see in Vietnam" />
+        <activity
+            android:name=".Listing_details"
+            android:label="Hanoi"
+            android:parentActivityName=".Home">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.vietnamforindians.Home" />
+        </activity>
+        <activity
+            android:name=".halong"
+            android:label="Ha Long Bay"
+            android:parentActivityName=".Home">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.vietnamforindians.Home" />
+        </activity>
+        <activity
+            android:name=".phong_nha"
+            android:label="Phong Nha"
+            android:parentActivityName=".Home">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.vietnamforindians.Home" />
+        </activity>
+        <activity
+            android:name=".hoi_an"
+            android:label="Hoi An"
+            android:parentActivityName=".Home">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.vietnamforindians.Home" />
+        </activity>
+        <activity
+            android:name=".cham_island"
+            android:label="Cham Island"
+            android:parentActivityName=".Home">
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.vietnamforindians.Home" />
+        </activity>
+        <activity android:name=".hanoi_viewed"></activity>
+    </application>
+
+</manifest>

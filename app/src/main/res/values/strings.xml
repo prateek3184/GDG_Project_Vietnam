@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">V.i.e.t.n.a.m</string>
+    <string name="nextButton">Next</string>
+    <string name="previousButton">Previous</string>
+    <string name="hanoi">Hanoi</string>
+    <string name="halong">Ha Long</string>
+    <string name="phongNha">Phong Nha</string>
+    <string name="hoiAn">Hoi An</string>
+    <string name="chamIsland">Cham Island</string>
+    <string name="hanoiIntro">"The capital of Hanoi gives a peek into the bustle of a Vietnamese city, its communist history and its post-reunification modernisation."</string>
+    <string name="halongIntro">"Ha Long is about, well, just breathtaking beauty!"</string>
+    <string name="phongNhaIntro">"Invoke the explorer in you by visiting Phong Nha. It’s all about caves here mixed with fascinating stories of the Ho Chi Minh trail - the lifeline of Vietnamese fighters during the war with America."</string>
+    <string name="hoiAnIntro">"Want a perfect suit stitched in 24 hours? How about moving around in a motor-free zone? Or, the most awesome Vietnamese coffee? Well, Hoi An has all that - and more - to offer."</string>
+    <string name="chamIslandIntro">"Head to some pristine beaches and go scuba diving or snorkelling in some very clear waters. You can even sign up for the PADI certification course if you have a couple of extra days to spare."</string>
+    <string name="halongDescription">Hạ Long Bay, in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests. Junk boat tours and sea kayak expeditions take visitors past islands named for their shapes, including Stone Dog and Teapot islands. The region draws scuba divers, rock climbers and hikers, the latter favoring mountainous Cát Bà National Park.</string>
+    <string name="hanoiDescription">Hanoi is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese and French influences. At its heart is the chaotic Old Quarter, where the narrow streets are roughly arranged by trade. There are many little temples, including Bach Ma, honoring a legendary horse, plus Dong Xuan market, selling household goods and street food.</string>
+    <string name="phongNhaDescription">Phong Nha-Kẻ Bàng is a national park and UNESCO World Heritage Site in the Bố Trạch and Minh Hóa districts of central Quảng Bình Province in the North Central Coast region, about 500 km south of Hanoi.</string>
+    <string name="hoiAnDescription">Hội An is a city on Vietnam’s central coast known for its well-preserved Ancient Town, cut through with canals. The former port city’s melting-pot history is reflected in its architecture, a mix of eras and styles from wooden Chinese shophouses and temples to colorful French colonial buildings, ornate Vietnamese tube houses and the iconic Japanese Covered Bridge with its pagoda.</string>
+    <string name="chamIslandDescription">The Cham Islands constitute a group of 8 small islands of Quảng Nam, which form a part of the Cu Lao Cham Marine Park, a world Biosphere Reserve recognized by UNESCO, in the South East Asia Sea in Vietnam.</string>
+</resources>
